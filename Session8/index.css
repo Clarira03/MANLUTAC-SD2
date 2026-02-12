@@ -1,0 +1,10 @@
+*{
+    margin:  0; important ;
+    padding: important 0; important
+}
+.heading{
+    color: rgb(23, 125, 221);
+}
+.heading-size{
+    font-size: 48px;
+}
