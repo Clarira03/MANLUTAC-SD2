@@ -1,0 +1,29 @@
+<style>
+        /*  "Interactive sha */
+        .project-card {
+            transition: all 0.3s ease; /* transition */
+            border: 2px solid transparent; /* Placeholder for border */
+        }
+
+        /* Hover Effect nallift and glowing sha */
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(253, 253, 13, 0.618) !important; /* green glow */
+            border-color: #fff306 !important; /* Highlights border on hover */
+        }
+
+        /* Changes text color pang nagagalaw*/
+        .project-card:hover .project-title {
+            color: #9fa113 !important;
+        }
+        
+        /* Button hover animation */
+        .btn-primary {
+            transition: transform 0.2s;
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-dark">
