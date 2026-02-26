@@ -11,3 +11,25 @@
 .project-sections{
 
 }
+</head>
+<style>
+        /*  "Interactive sha */
+        .project-card {
+            transition: all 0.3s ease; /* transition */
+            border: 2px solid transparent; /* Placeholder for border */
+        }
+
+        /* Hover Effect nallift and glowing sha */
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(13, 253, 117, 0.4) !important; /* green glow */
+            border-color: #077517 !important; /* Highlights border on hover */
+        }
+
+        /* Changes text color pang nagagalaw*/
+        .project-card:hover .project-title {
+            color: #069d16 !important;
+        }
+    </style>
+</head>
+<body class="bg-dark">
