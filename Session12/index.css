@@ -16,14 +16,4 @@
         .project-card:hover .project-title {
             color: #9fa113 !important;
         }
-        
-        /* Button hover animation */
-        .btn-primary {
-            transition: transform 0.2s;
-        }
-        .btn-primary:hover {
-            transform: scale(1.05);
-        }
     </style>
-</head>
-<body class="bg-dark">
