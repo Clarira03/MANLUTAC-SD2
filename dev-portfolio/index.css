@@ -1,0 +1,90 @@
+<style>
+        /* Custom Styles to make it pop */
+        :root {
+            --primary-color: #6366f1; /* Indigo */
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark-bg);
+            color: #e2e8f0;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #334155;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+        }
+
+        .nav-link {
+            color: #cbd5e1 !important;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: radial-gradient(circle at top right, #1e1b4b, var(--dark-bg));
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+        }
+
+        .text-accent {
+            color: var(--primary-color);
+        }
+
+        /* Project Cards */
+        .project-card {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+            border-color: var(--primary-color);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            opacity: 0.8;
+            transition: 0.3s;
+        }
+
+        .project-card:hover .card-img-top {
+            opacity: 1;
+        }
+
+        /* Skills Section */
+        .skill-bar {
+            background-color: #334155;
+            height: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .skill-progress {
+            background-color: var(--primary-color);
+            height: 100%;
+            border-radius: 5px;
+        }
