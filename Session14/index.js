@@ -50,5 +50,5 @@ let province = "Pampanga";
 console.log("I live in " + province)
 
 // Type- Coercion
-// Concatenation of a string and number or other data types will be all converted to string
+// Concatenation of a string and number or other data types will be all    converted to string
 console.log("My overall grade is " + gwa)
