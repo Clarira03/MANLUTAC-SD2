@@ -147,3 +147,6 @@ while(isRunning){
 
     }
 }
+
+//let input = parseInt(prompt("Please enter a number. "));
+//for (let i = 0; i < input ) PAG MAY NUMBER -
